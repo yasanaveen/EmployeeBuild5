@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
+<suite name="cmps_suite">
+    <test name="cmpusModule">
+        <classes>
+            <class name="testClass.TC_0001LoginPageTestclass"/>
+        </classes>
+    </test>
+
+</suite>
