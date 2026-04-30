@@ -11,26 +11,26 @@ import org.testng.annotations.BeforeClass;
 
 public class BaseClass {
 
-	public WebDriver driver;
-	public static Logger log;
+    public WebDriver driver;
+    public static Logger log;
 
-	@BeforeClass
-	public void setUp() {
-		
-		log = LogManager.getLogger(this.getClass());
-		
-		driver = new ChromeDriver();
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.manage().window().maximize();
-		driver.get("http://192.168.20.19:8081/login");
-		log.info("Browser launched and navigated to login page");
-	}
+    @BeforeClass
+    public void setUp() {
 
-	@AfterClass
-	public void tearDown() {
-	   driver.quit();
-		log.info("Browser closed");
-	}
+        log = LogManager.getLogger(this.getClass());
+
+        driver = new ChromeDriver();
+        driver.manage().deleteAllCookies();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.manage().window().maximize();
+        driver.get("http://192.168.20.19:8081/login");
+        log.info("Browser launched and navigated to login page");
+    }
+
+    @AfterClass
+    public void tearDown() {
+        driver.quit();
+        log.info("Browser closed");
+    }
 
 }
