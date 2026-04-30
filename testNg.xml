@@ -1,10 +1,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
 <suite name="cmps_suite">
+
+    <listeners>
+        <listener class-name="Utills.ExtentReportManager"/>
+    </listeners>
+
+
     <test name="cmpusModule">
         <classes>
             <class name="testClass.TC_0001LoginPageTestclass"/>
             <class name="testClass.TC_0002EmployeeManagementCard"/>
-<!--            <class name="testClass.TC_0003AssignIndividualTestclass"/>-->
+            <class name="testClass.TC_0003AssignIndividualTestclass"/>
         </classes>
     </test>
 
