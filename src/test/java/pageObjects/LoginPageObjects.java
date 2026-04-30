@@ -43,7 +43,6 @@ public class LoginPageObjects {
             System.out.println("Actual URL: " + actualUrl);
 
             Assert.assertEquals(actualUrl, expectedUrl, "URL is not matching");
-
             System.out.println("URL is matching");
         } catch (AssertionError e) {
             System.out.println("Assertion Failed — Taking Screenshot...");
