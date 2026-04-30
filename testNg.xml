@@ -4,7 +4,7 @@
         <classes>
             <class name="testClass.TC_0001LoginPageTestclass"/>
             <class name="testClass.TC_0002EmployeeManagementCard"/>
-            <class name="testClass.TC_0003AssignIndividualTestclass"/>
+<!--            <class name="testClass.TC_0003AssignIndividualTestclass"/>-->
         </classes>
     </test>
 

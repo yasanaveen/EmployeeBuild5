@@ -63,13 +63,13 @@ public class AssignIndividualPageObjects {
     @FindBy(xpath = "(//*[contains(@class,'Dropdown_dropdown_button')])[3]")
     WebElement reportingmanagerDpdown;
 
-    @FindBy(xpath = "//*[text()='Ravi Kumar (HYD000001)']")
+    @FindBy(xpath = "//*[text()='Ava Davis (HYD000020)']")
     WebElement selectReportingManagerOption;
 
     @FindBy(xpath = "(//*[contains(@class,'Dropdown_dropdown_button')])[4]")
     WebElement managerDpdown;
 
-    @FindBy(xpath = "//*[text()='Ravi Kumar (HYD000001)']")
+    @FindBy(xpath = "//*[text()='Ava Davis (HYD000020)']")
     WebElement selectManagerOption;
 
     @FindBy(xpath = "(//*[@id='workingStartDate'])[1]")

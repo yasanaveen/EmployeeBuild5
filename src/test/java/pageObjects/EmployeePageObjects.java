@@ -68,13 +68,13 @@ public class EmployeePageObjects {
     @FindBy(xpath = "(//*[contains(@class,'button__fINWZ')])[1]")
     WebElement managerDropdown;
 
-    @FindBy(xpath = "//*[text()='Ravi Kumar (HYD000001)']")
+    @FindBy(xpath = "//*[text()='Ava Davis (HYD000020)']")
     WebElement managerSelectOption;
 
     @FindBy(xpath = "(//*[contains(@class,'button__fINWZ')])[2]")
     WebElement reportingManagerDropdown;
 
-    @FindBy(xpath = "//*[text()='Ravi Kumar (HYD000001)']")
+    @FindBy(xpath = "//*[text()='Ava Davis (HYD000020)']")
     WebElement reportingManagerSelectOption;
 
     @FindBy(xpath = "//*[@name='remarks']")
